@@ -1,19 +1,14 @@
-@media screen and (max-width: 900px) {
-    header {
-        padding: 0;
-        top: 0;
-
-    }
-
-    .content {
-        flex-direction: column;
-    }
-
+@media screen and (max-width: 600){
     body {
-        top: 0;
-        /* height: 80vh; */
+        padding: 10px;
     }
 
+    header {
+        flex-direction: column;
+        algin-items: flex-start;
+    }
+
+    
 }
 
 * {
