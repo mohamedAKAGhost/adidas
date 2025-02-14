@@ -16,8 +16,8 @@
     main {
         flex-direction: column; 
         height: auto; 
-        width:0xp;   
-        padding:0px; 
+        width: 0px;   
+        padding: 0px; 
     }
 
     .content {
