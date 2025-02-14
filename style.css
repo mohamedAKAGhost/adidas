@@ -1,15 +1,43 @@
-@media screen and (max-width: 600){
+@media screen and (max-width: 600px) {
     body {
-        padding: 10px;
+        padding: 10px; 
     }
 
     header {
-        flex-direction: column;
-        algin-items: flex-start;
+        flex-direction: column; 
+        align-items: flex-start; 
     }
 
-    
+    nav ul {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    main {
+        flex-direction: column; 
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .content {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .shoeimg {
+        max-width: 100%; 
+        text-align: center; 
+    }
+
+    .shoeimg img {
+        width: 100%; 
+    }
+
+    .textconainter {
+        text-align: center; 
+    }
 }
+
 
 * {
     margin: 0;
